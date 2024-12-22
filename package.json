@@ -1,0 +1,19 @@
+{
+  "name": "q",
+  "version": "1.0.0",
+  "main": "dist/validate-commits.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "description": "",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

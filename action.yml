@@ -1,0 +1,12 @@
+name: Commit Message Checker
+description: Validate commit messages that they explain why change is done.
+author: Praveen Kumar
+
+inputs:
+  GITHUB_TOKEN:
+    description: GitHub token for API access
+    required: true
+
+runs:
+  using: "node16"
+  main: "dist/validate-commits.js"
